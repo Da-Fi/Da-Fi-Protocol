@@ -20,5 +20,8 @@
             "pre-commit": "yarn lint:fix-staged",
             "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
         }
+    },
+    "dependencies": {
+        "@polkadot/extension-dapp": "^0.36.1"
     }
 }
